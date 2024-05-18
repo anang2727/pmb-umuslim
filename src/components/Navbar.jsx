@@ -1,4 +1,4 @@
-import image from '/CODE/sc_ZIP/CHATBOT-PMB/frontend/src/assets/logoUmuslim.png';
+import image from '../assets/logoUmuslim.png';
 import React from 'react'
 
 const Navbar = () => {
