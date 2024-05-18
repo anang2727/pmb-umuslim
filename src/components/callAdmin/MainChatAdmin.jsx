@@ -25,15 +25,15 @@ const Main = () => {
 
         <div className="fixed bottom-0 left-0 w-full flex justify-center pb-5 bg-gray-100 px-5">
           <div className="w-full md:w-2/3">
-            <div className="flex justify-center gap-1 items-center w-full bg-gray-50 border-gray-300 border rounded-lg px-1">
+            <div className="flex justify-center px-3 gap-1 items-center w-full bg-[#006633] border-gray-300 border rounded-lg">
               <input
                 type="text"
                 id="input_pertanyaan"
-                className="h-14 text-gray-900 text-sm outline-none block w-full p-2.5"
+                className="h-14 text-white text-sm outline-none block w-full p-2.5 bg-transparent"
                 placeholder="Input Pertanyaan anda"
                 required
               />
-              <SendIcon />
+              <SendIcon className='text-white'/>
             </div>
           </div>
         </div>
