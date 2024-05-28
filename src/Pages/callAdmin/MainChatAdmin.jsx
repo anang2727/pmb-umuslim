@@ -11,13 +11,14 @@ const Main = () => {
   return (
     <>
       <section className='min-h-screen w-full bg-gray-100 py-3 border px-5 font-[poppins]'>
-        <div className='grid gap-6 md:grid-cols-6 grid-cols-1'>
+        <div className='grid gap-6 md:grid-cols-6 grid-cols-1 border-b-2 py-3 fixed right-0 left-0 px-5'>
           <div className='col-span-4'>
             {/* Kiri */}
             <div className='flex gap-5'>
               <Link to="/" className='text-slate-600'><ArrowBackIosIcon /></Link>
-              <button className='bg-slate-400 px-2 text-white py-1 rounded'>New Chat</button>
-              <Link to="/history" className='bg-gray-600 px-2 py-1 rounded text-white'>History</Link>
+              <button className='bg-slate-400 px-2 text-white py-1 rounded text-xs'>New Chat</button>
+              <Link to="/history" className='bg-gray-600 px-2 py-1 rounded text-white text-xs'>History</Link>
+              <p className='font-bold'>Universitas Almuslim</p>
             </div>
             {/* Konten kiri lainnya */}
           </div>
@@ -29,11 +30,11 @@ const Main = () => {
               <input
                 type="text"
                 id="input_pertanyaan"
-                className="h-14 text-white text-sm outline-none block w-full p-2.5 bg-transparent"
-                placeholder="Input Pertanyaan anda"
+                className="h-14 text-white text-sm outline-none block w-full p-2.5 bg-transparent placeholder:text-white"
+                placeholder="Tanyakan Pertanyaan anda"
                 required
               />
-              <SendIcon className='text-white'/>
+              <SendIcon className='text-white cursor-pointer'/>
             </div>
           </div>
         </div>

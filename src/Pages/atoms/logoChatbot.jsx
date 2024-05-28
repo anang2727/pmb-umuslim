@@ -1,5 +1,5 @@
 import React from 'react'
-import imageChatbot from '../assets/chatbot.png'
+import imageChatbot from '../../assets/chatbot.png'
 
 const logoChatbot = () => {
   return (

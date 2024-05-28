@@ -5,10 +5,10 @@ import { TextField } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import Tooltip from '@mui/material/Tooltip';
 import imageChatbot from '../assets/chatbot.png';
-import LogoChatbot from './logoChatbot';
+import LogoChatbot from '../Pages/atoms/logoChatbot';
 import './styles.css';
 import { Link } from 'react-router-dom';
-import MainChatAdmin from './callAdmin/MainChatAdmin'; 
+import MainChatAdmin from '../Pages/callAdmin/MainChatAdmin'; 
 
 const MessageForm = () => {
   const [messages, setMessages] = useState([]);
